@@ -9,6 +9,6 @@ const (
 
 type AuthSignIn struct {
 	Name     string   `json:"name"`
-	Password int      `json:"password"`
+	Password string   `json:"password"`
 	Sign     AuthType `json:"sign"`
 }
