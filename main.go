@@ -7,7 +7,7 @@ const (
 	SignUp
 )
 
-type AuthSignIn struct {
+type AuthSign struct {
 	Name     string   `json:"name"`
 	Password string   `json:"password"`
 	Sign     AuthType `json:"sign"`
