@@ -3,7 +3,7 @@ package ChatLibraryGo
 type AuthType int
 
 const (
-	SigIn AuthType = iota
+	SignIn AuthType = iota
 	SignUp
 )
 
